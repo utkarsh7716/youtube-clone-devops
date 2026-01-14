@@ -96,17 +96,23 @@ kubectl apply -f service.yaml
 Running YouTube-clone locally on docker desktop with the image built from Dockerfile
 ------------------------------------------------------------------------------------
 Local Run – Docker desktop on windows
+
 1) Clone the repo
+
 git clone -b feature-yt-clone-app https://github.com/Varshita5233/Devops_Projects.git
+
 cd Devops_Projects
 
 2) Build Docker image
+
 docker build -t yt-clone .
 
 3) Run container
+
 docker run -p 3000:3000 yt-clone
 
 4) Test locally
+
 
 Open in browser:
 
