@@ -99,24 +99,24 @@ Local Run – Docker desktop on windows
 
 1) Clone the repo
 
-git clone -b feature-yt-clone-app https://github.com/Varshita5233/Devops_Projects.git
+   git clone -b feature-yt-clone-app https://github.com/Varshita5233/Devops_Projects.git
 
-cd Devops_Projects
+   cd Devops_Projects
 
 2) Build Docker image
 
-docker build -t yt-clone .
+   docker build -t yt-clone .
 
 3) Run container
 
-docker run -p 3000:3000 yt-clone
+   docker run -p 3000:3000 yt-clone
 
 4) Test locally
 
 
-Open in browser:
+   Open in browser:
 
-http://localhost:3000
+   http://localhost:3000
 
 **✨ Author
 Varshita Rajana**
