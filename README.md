@@ -93,7 +93,7 @@ kubectl apply -f service.yaml
 <img width="1920" height="1080" alt="final ss-2" src="https://github.com/user-attachments/assets/39b86013-ae70-48fb-a4b4-cba21b33a6ca" /> 
 
 
-Running YouTube-clone locally on docker desktop with the image build from Dockerfile
+Running YouTube-clone locally on docker desktop with the image built from Dockerfile
 ------------------------------------------------------------------------------------
 Local Run – Docker desktop on windows
 1) Clone the repo
