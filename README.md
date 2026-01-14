@@ -92,6 +92,26 @@ kubectl apply -f service.yaml
 
 <img width="1920" height="1080" alt="final ss-2" src="https://github.com/user-attachments/assets/39b86013-ae70-48fb-a4b4-cba21b33a6ca" /> 
 
+
+Running YouTube-clone locally on docker desktop with the image build from Dockerfile
+------------------------------------------------------------------------------------
+Local Run – Docker desktop on windows
+1) Clone the repo
+git clone -b feature-yt-clone-app https://github.com/Varshita5233/Devops_Projects.git
+cd Devops_Projects
+
+2) Build Docker image
+docker build -t yt-clone .
+
+3) Run container
+docker run -p 3000:3000 yt-clone
+
+4) Test locally
+
+Open in browser:
+
+http://localhost:3000
+
 **✨ Author
 Varshita Rajana**
 **DevOps | AWS | Kubernetes | CI/CD | Jenkins | Terraform**
